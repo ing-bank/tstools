@@ -134,13 +134,14 @@ The following functions are available within this R package.
 
 ## Installation<a name="installation"></a>
 
-tstools is a package developed within ING and is not available on CRAN.
-The fastest way to install the package is to use a terminal or command
-prompt. Clone this repository and stay in the parent directory.
-Afterwards, simply type:
+tstools is a package developed within ING and is not available on CRAN,
+but on [INGs github](https://github.com/ing-bank). You can install the
+package directly from github using the [devtools
+package](https://cran.r-project.org/web/packages/devtools/index.html),
+using:
 
-``` bash
-R CMD INSTALL tstools
+``` r
+devtools::install_github("ing-bank/tstools")
 ```
 
 Some prerequisites for installing the package:
@@ -149,11 +150,10 @@ Some prerequisites for installing the package:
   - Rtools installed ([How
     to?](https://thecoatlessprofessor.com/programming/installing-rtools-for-compiled-code-via-rcpp))
 
-Any required packages that are missing from your R library will be
-indicated during installation or loading of the package, please [install
-these missing
+Any required packages that are missing from your R library should be
+automatically installed for you, otherwise please [install any missing
 packages](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/install.packages.html)
-and retry installing/loading tstools.
+before using the tstools package.
 
 -----
 
